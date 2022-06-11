@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Epilogue&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Epilogue;
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    background-color: chartreuse-;
+    /* justify-content: space-between; */
+}
+
+ul{ 
+    display: flex;
+    /* border: 1px solid red ; */
+    flex: 0.7;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+.left{
+    display: flex;
+    flex: 0.5;
+}
+
+.right{
+    display: flex;
+    /* border: 1px solid green; */
+    flex: 0.3;
+    /* margin-top: 5px; */
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+.right li{
+    font-size: 0.8em;
+    margin: 10px 50px;
+}
+
+.right li a{
+   color: black; 
+}
+
+ul li{
+    font-size: 0.8em;
+    padding-left: 5em;
+    padding-top: 10px;
+    position: relative;
+}
+
+ul li:first-of-type{
+    padding-left: 2em;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 3em;
+}
+
+ul li a{
+    color: black;
+}
+
+/* .dropdown{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.dropdown li{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    width: 120px;
+    left: 0;
+    z-index: 1;
+}
+
+.dropdown li a{
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.dropdown li a:hover{
+    background-color: brown;
+}*/
+
+button{
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 5px 12px;
+    background-color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.text_area{
+    display: flex;
+    height: 100vh;
+}
+
+.left__side{
+    flex: 0.5;
+    /* background-color: blue; */
+}
+
+h1{
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+p{
+   margin-left: 7.5em;
+   line-height: 1.5em;
+}
+.button_2{
+   margin-left: 9em;
+   margin-top: 3em;
+   padding: 12px 30px;
+   font-weight: bold;
+   border: 1px solid black;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.button_2:hover{
+    background-color: black;
+    color: white;
+}
+
+.inline{
+    margin-top: 4em;
+    margin-left: 7.5em;
+}
+
+.right__side{
+    flex: 0.5;
+    /* background-color: crimson; */
+}
+
+.right_img{
+    width: 70%;
+    height: 90%;
+    padding-left: 5em;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
